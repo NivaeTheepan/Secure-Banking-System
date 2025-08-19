@@ -1,0 +1,4 @@
+Mark:YgERG4Ogy1sJIss3zEQrmkDiTjsc4QCkuyBPTGP9KsA=:0.0
+testUser:k36NX7tIvUlJU2zWW401xCa4DS+DDFwwjizexCKuIkQ=:0.0
+Spec:1PAuqv0anp3n0Qlyyo5H+nqYWCXDycHiSccmg8s+Txk=:1000.0
+master:/GE7Tf1nNqe9JoyKDnTtDRwEqVn1nddO8odJg/1EP8k=:75.0

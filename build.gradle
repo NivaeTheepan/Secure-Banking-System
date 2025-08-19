@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.securebanking'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Java Swing Modern UI (FlatLaf)
+    implementation 'com.formdev:flatlaf:3.2'
+
+    // Cryptography (Bouncy Castle for AES-256 encryption)
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+
+    // Logging Utility (SLF4J + Logback)
+    implementation 'ch.qos.logback:logback-classic:1.4.5'
+
+    // JUnit for Testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+application {
+    mainClass = 'bankserver.BankServer'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
