@@ -34,6 +34,7 @@ The project is divided into two main layers:
 
 
 <p align="left"> <b>🚀 How It Works</b> </p>
+
 1. Launch the Bank Server
 
 2. Run the ATM Client to connect
