@@ -22,17 +22,17 @@ The project is divided into two main layers:
 
 1. Backend Logic: Handles authentication, encryption, account management, and secure communication.
 
-- Client.java – Entry point for user authentication and connection handling
-- ClientHelperFunc.java – Encrypted user requests with MAC verification
-- AuditLog.java – Logs transactions in plaintext and encrypted formats
-- MessageEncryption.java & KeyAdministrator.java – Encryption, decryption, and key management
+    - Client.java – Entry point for user authentication and connection handling
+    - ClientHelperFunc.java – Encrypted user requests with MAC verification
+    - AuditLog.java – Logs transactions in plaintext and encrypted formats
+    - MessageEncryption.java & KeyAdministrator.java – Encryption, decryption, and key management
 
 2. Graphical User Interface (GUI): Built with Java Swing, the GUI simulates an ATM interface:
 
-- Login screen for existing customers
-- Registration screen for new accounts with username, password, and initial deposit
-- Dashboard for deposits, withdrawals, and balance checks
-- Account deletion screen with secure confirmation
+    - Login screen for existing customers
+    - Registration screen for new accounts with username, password, and initial deposit
+    - Dashboard for deposits, withdrawals, and balance checks
+    - Account deletion screen with secure confirmation
 
 
 <p align="left"> <b>🚀 How It Works</b> </p>
