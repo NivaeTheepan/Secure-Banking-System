@@ -1,6 +1,7 @@
 # Secure-Banking-System
 A Java-based Secure Banking System developed to simulate a real-world ATM–Bank interaction and focuses on implementing strong security protocols alongside core banking functionalities.
 
+
 <p align="left"> <b>📌 Project Overview</b> </p>
 The Secure Banking System consists of a Bank Server and multiple ATM Client Machines. It replicates common banking operations while prioritizing confidentiality, authentication, and data integrity. Some core features include:
 
@@ -12,6 +13,7 @@ The Secure Banking System consists of a Bank Server and multiple ATM Client Mach
     - MAC verification for integrity
     - Hashed password validation
     - Encrypted and plaintext audit logging
+
  
 <p align="left"> <b>⚙️ System Architecture</b> </p>
 The project is divided into two main layers:
@@ -30,9 +32,14 @@ The project is divided into two main layers:
 - Dashboard for deposits, withdrawals, and balance checks
 - Account deletion screen with secure confirmation
 
+
 <p align="left"> <b>🚀 How It Works</b> </p>
-1. Launch the Bank Server.
-2. Run the ATM Client to connect.
-3. Register as a new user or log in with existing credentials.
-4. Perform transactions securely with AES-encrypted communication.
-5. All activities are logged in plaintext and encrypted files for auditing.
+1. Launch the Bank Server
+
+2. Run the ATM Client to connect
+
+3. Register as a new user or log in with existing credentials
+
+4. Perform transactions securely with AES-encrypted communication
+
+5. All activities are logged in plaintext and encrypted files for auditing
