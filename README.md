@@ -14,9 +14,11 @@ The Secure Banking System consists of a Bank Server and multiple ATM Client Mach
     - Hashed password validation
     - Encrypted and plaintext audit logging
 
+
  
 <p align="left"> <b>⚙️ System Architecture</b> </p>
 The project is divided into two main layers:
+
 
 1. Backend Logic: Handles authentication, encryption, account management, and secure communication.
 
